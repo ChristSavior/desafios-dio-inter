@@ -1,14 +1,39 @@
 
 /* Booleans - Condicionais que são apenas verdadeiro ou falso*/
 
+// Ímpar ou par
+ const numero = 10;
 
-const camisetaRodrigoAzul = true;
-const camisetaRodrigoVerde = false;
+const numeroPar = (numero % 2) === 0;
 
+if (numeroPar) {
+    console.log('Par');
+} else {
+    console.log('Impar');
+}
+
+// Código impar ou par compactado
 const numero = 10;
 
+if ((numero % 2) === 0) {
+    console.log('Par');
+} else {
+    console.log('Impar');
+}
 
 
-const numeroPar = numero % 2;
+// Número divisível por 5
+const numero = 10;
+const numeroDivisivelPor5 = (numero % 5) === 0;
 
-console.log(numeroPar);
+if (numero === 0) {
+    console.log('O número é inválido');
+} else if (numeroDivisivelPor5) {
+    console.log('Sim');
+} else {
+    console.log('Não');
+}
+
+
+
+
